@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         String xml ="<?xml version=\"1.0\" ?><root><test       attribute=\"text1\">javatpoint</test><test attribute=\"text2\">JTP</test></root>";
+        System.out.println(xml);
         try {
             JSONObject obj = XML.toJSONObject(xml);
             String s = obj.toString(1);
